@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
+    <input type="text" onchange="showType(this)">
+    <input type="number" onchange="showType(this)">
 
     <!-- <A HREF="javascript:void(document.form.submit())">
         Нажмите здесь, чтобы подтвердить отправку формы</A> -->
@@ -141,11 +143,26 @@
         // console.log(theDay instanceof Date);
         // console.log(theDay);
 
-        function plural(number, titles) {
-            
-        }
-        console.log(plural(2, 'Яблок'))
+        // Оператор this
+        // Указывает на текущий объект
+        // Синтаксис this["propertyName"] this.propertyName
 
+        // function validate(obj, low, hi) {
+        //     if(obj.value < low || obj.value > hi) {
+        //         alert('NO');
+        //     } else {
+        //         alert('YES');
+        //     }
+        // }
+        // function showType(obj) {
+        //     console.log(typeof(obj.type));
+        // }
+        // Оператор группировки
+        // () - оператор группировка позволяет опеределить порядок действий, например (x + y) * z
+        
+
+        // Глобальные объекты
+        // 
 
     </script>
 </body>
