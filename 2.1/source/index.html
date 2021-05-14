@@ -7,8 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="text" onchange="showType(this)">
-    <input type="number" onchange="showType(this)">
+    <!-- <input type="text" onchange="showType(this)">
+    <input type="number" onchange="showType(this)"> -->
+    <input id="first" type="text">
+    <input id="second" type="text">
+    <input id="btn" type="button" value="count">
 
     <!-- <A HREF="javascript:void(document.form.submit())">
         Нажмите здесь, чтобы подтвердить отправку формы</A> -->
@@ -162,7 +165,38 @@
         
 
         // Глобальные объекты
-        // 
+        // Глоальная переменная это обычная переменная, которую можно использовать в любом месте кода. В JavaScript роль глобального объекта играет объект Window
+        // alert(window)
+        // Кстати объявить глобальную переменную можно без использования var
+        // window.num = 10;
+        // console.log(num);
+
+        // Методы глобальных объектов
+        // var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+        // function random(arr) {
+        //     var min = Math.min.apply(null, arr);
+        //     var max = Math.max.apply(null, arr);
+        //     return Math.floor(Math.random() * max);
+        // }
+        // console.log(random(arr));
+
+        // console.log(parseInt('123abc'));
+        // console.log(Math.PI);
+        // function testParseFloat(str) {
+        //     var num = parseFloat(str);
+        //     if(num != NaN) {
+        //         console.log('number')
+        //     } else {
+        //         console.log('not number')
+        //     }
+        //     return num;
+        // }
+
+        // console.log(testParseFloat('5968dfh'));
+
+        
+
+
 
     </script>
 </body>
